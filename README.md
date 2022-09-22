@@ -41,3 +41,19 @@ programa
 		 
 	}
 }
+
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * usando o PortugolStudio, faça um algoritmo que dado um ano de nascimento e o ano anual mostre a idade3 da pessoa.
+		 */
+
+		 inteiro anoNascimento = 2006, anoAtual = 2022, idade
+		 idade = anoAtual - anoNascimento
+		 escreva ("Sua idade é: ",idade)
+
+	}
+}
