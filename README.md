@@ -12,9 +12,6 @@ programa
 		leia (numero)
 		resultado = valor * numero
 		escreva ("O resultado obtido foi "+resultado)
-
-
-		
 	}
 }
 
@@ -36,9 +33,6 @@ programa
 		 escreva ("\nAntecessor= "+antecessor)
 		 escreva ("\nSucessor= "+sucessor)
 		 escreva ("\n-----------------------------------------")
-		 
-
-		 
 	}
 }
 
@@ -54,7 +48,6 @@ programa
 		 inteiro anoNascimento = 2006, anoAtual = 2022, idade
 		 idade = anoAtual - anoNascimento
 		 escreva ("Sua idade é: ",idade)
-
 	}
 }
 
@@ -74,7 +67,32 @@ programa
 		leia (F)
 		Celsius = ((F-32/9)*5)
 		escreva ("O valor, em graus Celsius, é: ",Celsius)
-		
-		
+	}
+}
+
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * Crie um algoritmo que lê o nome de um aluno, as notas de suas três provas e calcule e exiba a média harmônica
+		 * das provas. use a fórmula 3 / 1/a + 1/b + 1/c
+		 */
+
+		 cadeia nome
+		 real a, b, c, media
+
+		 escreva ("Informe o nome:")
+		 leia (nome)
+		 escreva ("Informe a n1:")
+		 leia (a)
+		 escreva ("Informe a n2:")
+		 leia (b)
+		 escreva ("Informe a n3:")
+		 leia (c)
+
+		 media = 3/((1/a)+(1/b)+(1/c))
+		 escreva ("A média é: ",media)
 	}
 }
