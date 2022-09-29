@@ -1,3 +1,2 @@
-EXEMPLOS DE ALGORITMOS NO PORTUGOLSTUDIO
-
+#EXEMPLOS
 -Letícia pereira Alves da Cruz
