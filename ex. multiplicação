@@ -1,0 +1,16 @@
+programa
+{
+	
+	 funcao inicio()
+	{
+		real
+		valor , numero , resultado
+		
+		escreva ("Insira um valor: ")
+		leia (valor)
+		escreva ("Insira um outro valor para ser multiplicado: ")
+		leia (numero)
+		resultado = valor * numero
+		escreva ("O resultado obtido foi "+resultado)
+	}
+}
