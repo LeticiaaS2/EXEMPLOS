@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * Escreva um algoritmo que leia um valor em Fahrenheit e transforme em Celsius, usando a fómula:
+		 * C/5 = F-32/9
+		 */
+		
+		real F, Celsius
+
+		escreva ("informe o valor em graus Fahrenheit: ")
+		leia (F)
+		Celsius = ((F-32/9)*5)
+		escreva ("O valor, em graus Celsius, é: ",Celsius)
+	}
+}
