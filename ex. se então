@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real pi = 3.14, raio, resultado = 0.0
+
+		escreva ("Informe o raio: ")
+		leia (raio)
+
+		se(raio >=0){
+			resultado = pi*(raio*raio)
+			escreva ("A área do círculo é: "+resultado)
+		}senao{
+			escreva ("Erro: O raio é negativo. Tente novamente.")
+		}
+	}
+}
