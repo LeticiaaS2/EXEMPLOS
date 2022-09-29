@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * escreva um algoritmo que leia um valor e escreva se é positivo ou negativo
+		 * considere 0 como valor positivo.
+		 */
+
+		 inteiro valor
+
+		 escreva ("informe um valor: ")
+		 leia (valor)
+		 se(valor >= 0 ){
+		 	escreva ("Positivo")
+		 }senao{
+		 	escreva ("Negativo")
+		 }
+	}
+}
