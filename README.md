@@ -1,2 +1,2 @@
 # EXEMPLOS
-Letícia pereira Alves da Cruz
+LETÍCIA PEREIRA ALVES DA CRUZ 1°INFO
