@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		/*
+		 * escreva um algoritmo que leia um valor e escreva "É MAIOR QUE 10!" se o valor 
+		 * for maior do que 10, senão escrever 'NÃO É MAIOR QUE 10!"
+		 */
+
+		 inteiro numero
+
+		 escreva ("Informe o valor: ")
+		 leia (numero)
+		 se (numero>10) {
+		 	escreva ("Número MAIOR que 10!")
+		 }senao se(numero == 10) {
+		 	escreva ("O número é IGUAL a 10!")
+		 }senao{
+		 	escreva ("Número MENOR que 10!")
+		 }
+	}
+}
