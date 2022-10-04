@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade
+		cadeia nome
+		
+		escreva ("Informe o seu nome: ")
+		leia (nome)
+		escreva (nome,",informe sua idade: ")
+		leia (idade)
+
+		se(( idade >= 5 ) e (idade<=10)) {
+			escreva ("Sua categoria é a infantil")
+		}senao se(( idade >= 11) e (idade<=15)) {
+			escreva ("Sua categoria é a juvenil")
+		}senao se(( idade >= 16) e (idade<=20)) {
+			escreva ("Sua categoria é a junior")
+		}senao se(( idade >= 21) e (idade<=25)) {
+			escreva ("Sua categoria é a profissional")
+		}senao{
+			escreva ("Você não possui uma categoria")
+		}
+	}
+}
