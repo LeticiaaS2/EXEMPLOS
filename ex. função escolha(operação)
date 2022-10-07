@@ -1,0 +1,35 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro n1, n2, resultado
+		caracter operacao
+
+		escreva("Informe o primeiro número: ")
+		leia(n1)
+		escreva("Informe a operação: ")
+		leia(operacao)
+		escreva("Informe o segundo número: ")
+		leia(n2)
+		
+		escolha(operacao){
+		caso '+':
+		  resultado = n1+n2
+          escreva("Resultado: ",resultado)
+		  pare
+	    caso '-' :
+		  resultado = n1-n2
+          escreva("Resultado: ",resultado)
+		  pare
+        caso '*' :
+		  resultado = n1*n2
+          escreva("Resultado: ",resultado)
+		  pare
+        caso '/' :
+		  resultado= n1/n2
+          escreva("Resultado: ",resultado)
+		  pare
+        caso contrario :
+		  escreva("Operação inválida.")}
+	}
+}
