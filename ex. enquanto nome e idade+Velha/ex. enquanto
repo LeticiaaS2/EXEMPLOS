@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome = "", nomeMaisV = ""
+		inteiro idade = 1, idadeMaisV = 0
+
+		enquanto(idade>0){
+
+				escreva("Informe o nome: ")
+				leia(nome)
+				escreva("Informe a idade: ")
+				leia(idade)
+				
+				se(idade>idadeMaisV){
+					idadeMaisV = idade
+					nomeMaisV = nome
+				}
+				
+			}
+			escreva("Nome do mais velho: "+nomeMaisV)
+			escreva("\nIdade do mais velho: "+idadeMaisV)
+			se(idadeMaisV>50){
+				escreva("\nIDOSO!")
+			}
+		}
+		
+	}
+
