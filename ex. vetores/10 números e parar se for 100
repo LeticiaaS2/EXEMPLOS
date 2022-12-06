@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros[10]
+
+		para(inteiro i=0; i<10; i++){
+		escreva("Informe o valor da posição "+i+": ")
+		leia(numeros[i])
+		
+		se(numeros[i] == 100){
+			pare}
+		
+		}	
+	}
+}
