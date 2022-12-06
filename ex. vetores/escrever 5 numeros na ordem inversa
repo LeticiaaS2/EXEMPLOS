@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro numeros[5]
+	    
+	    para(inteiro i=0; i<5; i++){
+	    	escreva("Informe o valor da posição "+i+": ")
+	    	leia(numeros[i])
+	    }
+
+	    escreva("\n---------IMPRIMINDO VALORES----------\n")
+	    para(inteiro i=4; i>=0; i--){
+	    	escreva("\nO valor da posição "+i+" é: "+numeros[i])
+	    }
+	    
+	}
+}
