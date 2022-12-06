@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros[10],Novo=0
+
+		para(inteiro i=0; i<10; i++){
+		escreva("Informe o valor da posição "+i+": ")
+		leia(numeros[i])
+		}
+		
+		escreva("Informe um novo valor: ")
+		leia(Novo)
+		se(Novo==(numeros[0])){
+			escreva("Número presente no vetor")
+			}senao{
+			escreva("Número não está presente no vetor")
+			}
+		
+	}
+}
