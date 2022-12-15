@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num[3][3]
+
+		para(inteiro i=0; i<3; i++){
+			para(inteiro j=0; j<3; j++){
+				escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
+				leia(num[i][j])
+			}
+		}
+		escreva("\n\nIMPRIMINDO VALORES: \n\n")
+		
+		para(inteiro i=0; i<3; i++){
+			para(inteiro j=0; j<3; j++){
+				escreva("["+num[i][j]+"] ")
+			}
+			escreva("\n")
+		}
+	
+	}
+}
