@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num[3][3], soma=0
+
+		para(inteiro i=0; i<3; i++){
+			soma=0
+			para(inteiro j=0; j<3; j++){
+				escreva("Informe o valor da posição ["+i+"]["+j+"]: ")
+				leia(num[i][j])
+				soma=soma+num[i][j]
+			}
+			escreva("\nA soma da linha "+i+" é:"+soma+"\n")
+		}
+		para(inteiro i=0; i<3; i++){
+			para(inteiro j=0; j<3; j++){
+				escreva("["+num[i][j]+"] ")
+			}
+			escreva("\n")
+		}
+	
+	}
+}
