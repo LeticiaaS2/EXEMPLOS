@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  /* armazenar no vetor e dps impriir em ordem decrescente */
+		inteiro vot[10]
+
+		para(inteiro i=9; i>=0; i--){
+			vot[i]=10-i
+		}
+
+		para(inteiro i=0; i<10; i++){
+			escreva(vot[i]+" | ")
+		}
+		escreva("\n"+vot[3])
+	}
+}
