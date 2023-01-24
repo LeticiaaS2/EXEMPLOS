@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	/*recebe 10 numeros e armazene no vetor a metade*/
+	
+		real vot[10]
+
+		para(inteiro i=0; i<10; i++){
+			escreva("Informe um  número: ")
+			leia(vot[i])
+			vot[i] = vot[i]/2
+		}
+		para(inteiro i=0; i<10; i++){
+			escreva(vot[i]+" | ")
+		}
+
+		
+	}
+}
