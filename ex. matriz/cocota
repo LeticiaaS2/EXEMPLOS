@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro v[10], n=0, v1[10]
+
+		para(inteiro i=0;i<10;i++){
+			v[i]=n++
+			se(v[i]%2==0){
+				v1[i]=v[i]
+			}
+		}
+		para(inteiro i=0;i<10;i++){
+			escreva("["+v1[i]+"]")
+		}
+	}
+}
